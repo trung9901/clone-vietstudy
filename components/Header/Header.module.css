@@ -1,0 +1,72 @@
+.comtainer{
+
+       @apply bg-[#41246d]
+}
+.homebtn{
+  padding:5px 10px;
+  background-color: #f5b417;
+}
+.elementor_row{
+   @apply w-[1900px] relative m-auto;
+    
+}
+.menu Link button:hover{
+      background-color: #f5b417;
+}
+.menu button{
+     padding:8px 10px;
+     margin:0 5px
+}
+.menu ul li {
+  display: inline-block;
+}
+
+
+.menu{
+  display: flex;
+}
+.menu{
+ @apply px-[15px] text-[#fff] 
+}
+.conten{
+  display:grid;
+  grid-template-columns: 0.5fr 1fr;
+    padding: 20px;
+}
+.contact{
+  display: flex;
+  margin:10px
+  
+}
+.contact p{
+  @apply text-[#fff]
+}
+.iconmap{
+  @apply text-[#f5b417] w-[30px] mt-[5px]
+  
+}
+.menu ul li:hover{
+  background:#f5b417
+}
+.btn4{
+  position: relative;
+}
+.menu2{
+  display: none;
+  position: absolute;
+  background-color: #41246d;
+  width: 200px;
+  padding-top: 30px; 
+}
+.menu2 li {
+  display: block !important;
+}
+.btn4:hover .menu2{
+  display: block;
+}
+.btn4:hover .menu2 li{
+  background: none !important;
+}
+.menu2 li:hover{
+  color: red
+}

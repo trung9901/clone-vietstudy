@@ -1,0 +1,309 @@
+.wrap_banner {
+  height: 700px;
+  background-color: #ededec;
+}
+
+.bg {
+  @apply
+   bg-[#41246d] 
+   /* bg-[#ededec]  */
+   h-full;
+}
+.banner {
+  @apply w-[100%] relative;
+}
+.banner_img {
+  background-image: url("https://res.cloudinary.com/trung9901/image/upload/v1664512080/img_upload/fg2dv2f0feflrnfubkut.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 92%;
+  height: 853px;
+  margin: auto;
+}
+.wrap_widget {
+  @apply bg-[#ededec] pt-[200px];
+}
+.widget {
+  @apply h-[450px] max-w-[1480px] m-auto;
+}
+.widget_left p {
+  @apply block;
+}
+
+.widget_left .subtitle,
+.edu_right_above > span {
+  @apply text-[#f24080] text-2xl text-[16px];
+}
+.widget_left .title,
+.edu_right_above .title {
+  @apply text-[#301a52] text-6xl font-bold;
+}
+.widget_left .title_desc,
+.edu_right_above .title_desc {
+  @apply text-[#3f354d] text-base mt-7 pr-20;
+}
+.widget_right_box ol {
+  @apply grid grid-cols-2 gap-7;
+}
+.widget_right_box ol li {
+  @apply bg-white  flex px-5 py-7;
+}
+.widget_right_box ol li span {
+  @apply bg-[#f5b417] text-white rounded-full  min-w-[60px] min-h-[60px] flex;
+}
+.widget_right_box ol li span small {
+  @apply text-3xl m-auto;
+}
+.widget_right_box ol li h6 {
+  @apply text-[#301a52] text-xl ml-4 font-semibold;
+}
+.row {
+  @apply grid grid-cols-2  mx-24 py-24;
+}
+
+.wrap_edu {
+  @apply bg-[#ededec] relative overflow-hidden;
+}
+.edu {
+  @apply max-w-[1480px] m-auto;
+}
+.edu::before {
+  @apply absolute bg-white w-full h-full top-0;
+  content: "";
+  z-index: -1;
+}
+.edu_left_above img {
+  @apply w-full;
+}
+.edu_left_under_title p {
+  @apply text-lg mt-7;
+}
+.edu_left_under_title {
+  @apply py-7;
+}
+.edu_left_under_title h6 {
+  @apply text-[#301a52] text-2xl;
+}
+.edu_left_under_media {
+  @apply w-[312px] h-[214px];
+}
+.edu_left_under_media iframe {
+  @apply w-full h-full;
+}
+.edu_left_under > div {
+  @apply flex justify-between;
+}
+.edu_left_under {
+  @apply mt-9;
+}
+.edu_right_above {
+  @apply pt-16;
+}
+.edu_right_above .title_desc {
+  @apply mt-10 mb-20;
+}
+.edu_right_above .button {
+  @apply text-white  bg-[#f24080] py-5 px-7  mt-10 uppercase;
+}
+
+.edu_right {
+  @apply pl-24;
+}
+.edu_right_under {
+  @apply mt-32;
+}
+.courses,
+.student,
+.plan,
+.blog {
+  @apply max-w-[1480px] m-auto py-20;
+}
+.courses_slider {
+  @apply grid grid-cols-4 gap-7;
+}
+.courses_title_small {
+  @apply text-[#f5b417] text-2xl text-center;
+}
+.courses_title_big {
+  @apply text-white font-bold mt-1 mb-10;
+}
+.courses_slider {
+  @apply mt-12;
+}
+.blogger ul {
+  @apply flex justify-center;
+}
+.blogger ul li a > span {
+  @apply flex border py-6 px-9 border-black;
+}
+.blogger ul li a span > img {
+  @apply max-h-[18px] min-h-[18px] text-center mx-2 my-auto;
+}
+.blogger ul li a span > span {
+  @apply text-white;
+}
+/* .wrap_courses:before {
+  content: "";
+  @apply bg-[#41246d] bottom-24 z-[1];
+} */
+.wrap_courses {
+  @apply bg-[#41246d];
+}
+
+.courses_title_big {
+  @apply text-6xl text-center text-white;
+}
+.courses_slider_item_content {
+  @apply p-6 bg-white mt-5;
+}
+.courses_slider_item_content h5 {
+  @apply text-[#301a52] text-2xl font-semibold;
+}
+.courses_slider_item_content p {
+  @apply text-[#3f354d];
+}
+.courses_slider_item_image img {
+  @apply w-full;
+}
+.arrow_button {
+  @apply flex justify-center mt-20 text-white text-2xl gap-2
+}
+.arrow_button div{
+  @apply border p-5 
+}
+.student,
+.plan {
+  @apply text-center;
+}
+.student_title span,
+.plan_title span,
+.blog_left_title span {
+  @apply text-[#f24080] text-2xl;
+}
+.student_title h2,
+.plan_title h2,
+.blog_left_title h2 {
+  @apply text-[#301a52] text-6xl font-bold;
+}
+.student_content_image {
+  @apply max-w-[112px]  m-auto mt-24 mb-10;
+}
+.student_content_image img {
+  @apply w-full rounded-full;
+}
+.student_content > p {
+  @apply mx-[224px] text-lg text-[#504462];
+}
+.student_content_name {
+  @apply text-[#3f354d] font-semibold text-2xl mt-8;
+}
+.student_content_advanced {
+  @apply text-[#b0b2b5] text-sm my-1;
+}
+.student_content_rating {
+  @apply flex justify-center;
+}
+.student_content_rating .star {
+  @apply w-5;
+}
+.student_content_rating .star svg {
+  @apply max-w-[20px];
+}
+.wrap_plan {
+  @apply bg-[#efefef];
+}
+.plan_content {
+  @apply grid grid-cols-3 mt-20;
+}
+.price_item_default {
+  @apply w-[405px];
+}
+.price_item_info {
+  @apply bg-white p-16;
+}
+.price_item_info h3 {
+  @apply text-2xl text-[#301a52] font-bold;
+}
+.price_item_price {
+  @apply text-[#f24080] font-bold my-5;
+}
+.price_item_price .price_item_price_value {
+  @apply text-4xl;
+}
+.price_item_price .price_item_price_decimals {
+  @apply align-top;
+}
+.price_item_detail {
+  @apply text-[#3f354d];
+}
+.price_item_detail p {
+  @apply text-lg;
+}
+
+.price_item_default .price_item_button {
+  @apply bg-[#f24080] font-semibold text-white text-sm uppercase w-full py-10 mt-8;
+}
+/* .blog {
+
+  @apply bg-[#efefef] w-full;
+} */
+.wrap_blog {
+  @apply bg-[#efefef] relative;
+}
+
+.blog .row {
+  @apply gap-24;
+}
+
+.blog_left .blog_left_post {
+  @apply mt-10;
+}
+.blog_left_post_image {
+  @apply max-w-[600px];
+}
+.blog_left_post_image img {
+  @apply w-full;
+}
+.blog_left_post_content {
+  @apply bg-white p-10;
+}
+.blog_left_post_content_date button {
+  @apply bg-[#41246d] text-white px-5 py-1 uppercase font-semibold text-xs;
+}
+.blog_left_post_content_date span {
+  @apply mx-6 text-sm;
+}
+.blog_left_post_content_title {
+  @apply font-bold text-3xl text-[#301a52] my-6;
+}
+.blog_right {
+  @apply px-4;
+}
+.blog_right .tabs {
+  @apply flex w-full;
+}
+
+.blog_right .tabs li {
+  @apply bg-[#f24080] w-full text-center text-white py-5;
+}
+.blog_right .post {
+  @apply bg-white;
+}
+.post_item {
+  @apply pl-10;
+}
+.post li {
+  @apply h-[210px] max-h-[210px] flex p-10;
+}
+.post_title {
+  @apply text-2xl font-bold;
+}
+.post_info {
+  @apply text-xs;
+}
+.post_image {
+  @apply max-w-[120px];
+}
+.post_image img {
+  @apply w-full;
+}

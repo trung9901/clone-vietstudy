@@ -1,0 +1,221 @@
+.contentWap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_left{
+    width: 60%;
+    margin-right: 60px;
+    
+}
+.content_right{
+    width: 30%;
+}
+.content_right p{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.content_right button{
+    height: 50px;
+    width: 100%;
+    background-color: #f24080;
+    color: white;
+    text-transform: uppercase;
+}
+.content_left_head{
+    display: flex;
+    justify-content: space-between;
+}
+.content_left_instruc{
+    display: flex;
+}
+.content_left_instruc_img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content_left_instruc_info{
+    padding-left: 10px;
+    line-height: 25px;
+}
+.content_left_instruc_info p{
+    font-size: 18px;
+}   
+.content_left_instruc_info a{
+    @apply text-[20px] hover:text-[#f24080] duration-500
+}   
+.content_left_cate{
+    display: flex;
+}
+.content_left_cate img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.content_left_cate p{
+    color: #3f354d;
+    font-size: 20px;
+}
+.content_left_cate span{
+    @apply hover:text-[#f24080] cursor-pointer duration-500
+}
+
+.content_courses{
+    margin-top: 30px !important;
+}
+.content_courses_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.content_courses_item{
+    display: flex;
+}
+.content_courses_item p{
+   color: #f24080 ;
+   margin-top: 3px;
+}
+.content_courses_item span{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.content_btn{
+    display: flex;
+    margin-top: 30px;
+}
+.content_btn button{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 50px;
+    background-color: #f1f2f8;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.content_btn .content_btn_active{
+    border: none;
+    background-color: white;
+    color: #f24080;
+    border-top: 5px solid #f24080; 
+    border-bottom: 1px solid #ccc;
+}
+
+.content_btn1_head p{
+    padding: 40px 0;
+}
+.content_btn1_desc h3,.content_btn1_certification h3,
+.content_btn1_outcomes h3,
+.form_cmt h3{
+    padding: 40px 0;
+    color: #3f354d;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.content_btn1_certification p{
+    padding: 30px 0;
+}
+.content_btn1_outcomes ul li{
+    display: block;
+    list-style: none;
+    padding-left: 10px;
+}
+.content_btn1_outcomes ul li:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 50%;
+    top: -1px;
+    background-color: #f24080;
+    left: -1em;
+}
+.form_cmt .form_cmt_input{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.form_cmt .form_cmt_input input{
+    width: 200px;
+    background-color: rgb(218, 218, 218);
+    display: inline;
+    height: 40px;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    outline: none;
+    transition: all ease 0.5s;
+}
+.form_cmt .form_cmt_input input:focus,.form_cmt textarea:focus{
+    background-color: white;
+    border: 1px solid #3f354d;
+    transition: all ease 0.5s;
+}
+.form_cmt textarea{
+    outline: none;
+    width: 100%;
+    background-color:rgb(218, 218, 218) ;
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 150px;
+    margin: 40px 0;
+    transition: all ease 0.5s;
+}
+.form_cmt textarea:hover,.form_cmt .form_cmt_input input:hover{
+    background: white;
+    transition: all ease 0.5s;
+    border: 1px solid #3f354d;
+}
+.form_cmt button{
+    margin: 40px 0;
+    width: 150px;
+    border: none;
+    background-color: #8a819a !important;
+    height: 40px;
+    color: #301a52 !important;
+    margin-bottom: 100px;
+}
+.content_btn2 {
+    margin-bottom: 50px;
+}
+.content_btn2 .content_btn2_title h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#54595F;
+    font-weight: 400;
+    margin-bottom: -40px;
+}
+.content_btn2 .content_btn2_title{
+    border-bottom:1px solid #ccc;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.content_btn2 .content_btn2_title p{
+    padding: 20px 0;
+    color:#ccc
+}
+.content_btn2_title_icon{
+    margin-top: 20px;
+}
+.content_btn3{
+    display: flex;
+    margin-top:40px;
+    margin-bottom: 100px;
+}
+.content_btn3 .content_btn3_img img{
+   border-radius: 50%;
+}
+.content_btn3_info{
+    margin-left: 20px;
+}
+.content_btn3_info h3{
+    margin-bottom: -20px;
+    font-size: 20px;
+    cursor: pointer;
+    @apply hover:text-[#f24080] duration-500
+}
+
